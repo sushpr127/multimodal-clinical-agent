@@ -1,0 +1,122 @@
+[
+  {
+    "id": "tc01",
+    "question": "What are the contraindications for Ozempic tablets?",
+    "ground_truth": "Ozempic tablets are contraindicated in patients with a personal or family history of medullary thyroid carcinoma (MTC) or in patients with Multiple Endocrine Neoplasia syndrome type 2 (MEN 2). They are also contraindicated in patients with a prior serious hypersensitivity reaction to semaglutide.",
+    "source_file": "Ozempic.pdf",
+    "expected_type": "narrative",
+    "modality": "text"
+  },
+  {
+    "id": "tc02",
+    "question": "What is the recommended starting dose for RYBELSUS?",
+    "ground_truth": "The recommended starting dosage for RYBELSUS is 3mg orally once daily for 30 days. This dosage is not effective for glycemic control and is used only for initiation.",
+    "source_file": "Ozempic.pdf",
+    "expected_type": "numerical",
+    "modality": "table"
+  },
+  {
+    "id": "tc03",
+    "question": "What percentage of patients experienced nausea with semaglutide 14mg versus placebo?",
+    "ground_truth": "In placebo-controlled trials, 20% of patients treated with semaglutide 14mg experienced nausea, compared to 6% of placebo-treated patients.",
+    "source_file": "Ozempic.pdf",
+    "expected_type": "numerical",
+    "modality": "table"
+  },
+  {
+    "id": "tc04",
+    "question": "What does the Kaplan-Meier curve in Trial 7 show about cardiovascular outcomes?",
+    "ground_truth": "The Kaplan-Meier curve shows semaglutide 14mg significantly reduced time to first MACE compared to placebo, with a hazard ratio of 0.86 (95% CI 0.77 to 0.96) over a median follow-up of 49.6 months.",
+    "source_file": "Ozempic.pdf",
+    "expected_type": "visual",
+    "modality": "chart"
+  },
+  {
+    "id": "tc05",
+    "question": "What are the most common adverse reactions occurring in at least 5% of patients?",
+    "ground_truth": "The most common adverse reactions with incidence of 5% or greater are nausea, abdominal pain, diarrhea, decreased appetite, vomiting, and constipation.",
+    "source_file": "Ozempic.pdf",
+    "expected_type": "narrative",
+    "modality": "text"
+  },
+  {
+    "id": "tc06",
+    "question": "What was the HbA1c reduction for semaglutide 14mg compared to placebo in Trial 1?",
+    "ground_truth": "In Trial 1, semaglutide 14mg reduced HbA1c by 1.4% from baseline versus 0.3% with placebo, a difference of 1.1 percentage points.",
+    "source_file": "Ozempic.pdf",
+    "expected_type": "numerical",
+    "modality": "table"
+  },
+  {
+    "id": "tc07",
+    "question": "What are the thyroid C-cell tumor warnings for semaglutide?",
+    "ground_truth": "In rodents, semaglutide causes dose-dependent thyroid C-cell tumors at clinically relevant exposures. Human relevance is unknown. The drug is contraindicated in patients with personal or family history of MTC or MEN 2.",
+    "source_file": "Ozempic.pdf",
+    "expected_type": "narrative",
+    "modality": "text"
+  },
+  {
+    "id": "tc08",
+    "question": "What is the dose escalation schedule for OZEMPIC tablets?",
+    "ground_truth": "OZEMPIC tablets start at 1.5mg once daily for 30 days, increase to 4mg on days 31-60, then to 9mg on day 61 or thereafter if additional glycemic control is needed.",
+    "source_file": "Ozempic.pdf",
+    "expected_type": "numerical",
+    "modality": "table"
+  },
+  {
+    "id": "tc09",
+    "question": "What is the mechanism of action of semaglutide?",
+    "ground_truth": "Semaglutide is a GLP-1 receptor agonist that lowers blood glucose by stimulating insulin secretion and lowering glucagon secretion in a glucose-dependent manner, and causes minor delay in gastric emptying.",
+    "source_file": "Ozempic.pdf",
+    "expected_type": "narrative",
+    "modality": "text"
+  },
+  {
+    "id": "tc10",
+    "question": "What were the hypoglycemia rates in the monotherapy trial for semaglutide 7mg?",
+    "ground_truth": "In the 26-week monotherapy trial, severe hypoglycemia occurred in 1% of semaglutide 7mg patients. Plasma glucose below 54 mg/dL occurred in 0% of patients.",
+    "source_file": "Ozempic.pdf",
+    "expected_type": "numerical",
+    "modality": "table"
+  },
+  {
+    "id": "tc11",
+    "question": "Why do 90% of clinical drug development programs fail?",
+    "ground_truth": "Clinical drug development fails due to four reasons: lack of clinical efficacy (40-50%), unmanageable toxicity (30%), poor drug-like properties (10-15%), and lack of commercial needs or poor strategic planning (10%).",
+    "source_file": "semaglutide_trial.pdf",
+    "expected_type": "narrative",
+    "modality": "text"
+  },
+  {
+    "id": "tc12",
+    "question": "What does the STAR diagram show about Class I drug candidates?",
+    "ground_truth": "Class I drug candidates have high specificity/potency and high tissue exposure/selectivity. They require low dose to achieve superior clinical efficacy with low toxicity and have the highest success rate in clinical trials.",
+    "source_file": "semaglutide_trial.pdf",
+    "expected_type": "visual",
+    "modality": "chart"
+  },
+  {
+    "id": "tc13",
+    "question": "What is the recommended starting dose for metformin in adults?",
+    "ground_truth": "The recommended starting dose for metformin in adults is 500mg twice daily or 850mg once daily with meals, with gradual dose escalation to reduce gastrointestinal side effects.",
+    "source_file": "metformin_label.pdf",
+    "expected_type": "numerical",
+    "modality": "table"
+  },
+  {
+    "id": "tc14",
+    "question": "What are the contraindications for metformin?",
+    "ground_truth": "Metformin is contraindicated in patients with renal impairment, acute or chronic metabolic acidosis including diabetic ketoacidosis, and should be withheld in patients undergoing radiologic studies with iodinated contrast materials.",
+    "source_file": "metformin_label.pdf",
+    "expected_type": "narrative",
+    "modality": "text"
+  },
+  {
+    "id": "tc15",
+    "question": "What is the probability of success at the Phase II stage of clinical development?",
+    "ground_truth": "The probability of success at Phase II clinical trials is approximately 48.6% according to analyses of clinical trial data.",
+    "source_file": "semaglutide_trial.pdf",
+    "expected_type": "numerical",
+    "modality": "chart"
+  }
+]

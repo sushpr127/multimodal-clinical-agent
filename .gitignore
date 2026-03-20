@@ -1,0 +1,11 @@
+.env
+venv/
+data/
+__pycache__/
+*.pyc
+eval/eval_results_*.json
+node_modules/
+frontend/build/
+extracted_images/
+*.pyc
+.DS_Store
