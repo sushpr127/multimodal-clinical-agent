@@ -305,29 +305,6 @@ python -m eval.run_eval --baseline
 
 ---
 
-## Resume bullets
-
-```
-• Built a multimodal clinical document intelligence agent using LangGraph and
-  Gemini 2.0 Flash Vision that ingests FDA drug labels and clinical trial PDFs,
-  extracting text, tables, and charts as separate modalities via Unstructured.io
-  — enabling cross-modal Q&A across documents that text-only RAG cannot handle
-
-• Engineered a hybrid Weaviate vector store with 3 distinct classes (TextChunk,
-  TableChunk, ChartDescription) and cross-modal references, enabling a single
-  query to retrieve grounded evidence across all document modalities simultaneously
-
-• Designed a LangGraph query-routing agent with 3 retrieval strategies and a
-  cross-encoder re-ranking node (ms-marco-MiniLM-L-6-v2) that improved faithfulness
-  from 74% to 84% and reduced hallucination rate from 13% to 0% — validated on a
-  15-question Ragas eval harness across 3 clinical documents and 3 retrieval modalities
-
-• Deployed a full-stack FastAPI + React application with per-document chat history,
-  citation-highlighted answers with exact page numbers, and collapsible reasoning
-  traces showing retrieval decisions — replicating clinical document intelligence
-  workflows at a fraction of enterprise tool cost
-```
-
 ---
 
 ## Author
